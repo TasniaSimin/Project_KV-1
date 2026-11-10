@@ -84,5 +84,111 @@ body {
 /*banner buttons*/
 /*Banner section*/
 #banner {
+   background: linear-gradient(rgba(11, 25, 44, 0.2), rgba(11, 25, 44, 0.3)), url('../assets/hero-bg.png') center/cover no-repeat;
+   color: #FFFFFF;
+   min-height: 583px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
     
+}
+/*badge part*/
+.banner-container {
+    width: 1360px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 70px 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /*gap: 32px;*/
+}
+.badge{
+    margin-bottom: 16px;
+    display: inline-block;
+}    
+    
+
+.badge span{
+    background: #FFFFFF;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #e2e8f0;
+}
+
+.badge i {
+    color: #00d26a;
+    font-size: 8px;
+}
+
+.banner-section {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* Headings */
+#banner h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#banner .highlight {
+    color: #30B868; /* Green color for the second line */
+}
+
+/* Description Text */
+#banner p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+/* banner buttons */
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* Outline Button Style */
+.btn-outline {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
 }
