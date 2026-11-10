@@ -298,19 +298,7 @@ body {
     margin-bottom: 69px;
 }
 
-/* Responsive Support */
-@media (max-width: 992px) {
-    .cards-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
-
-@media (max-width: 576px) {
-    .cards-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Solution Section  */
 .solution-section {
@@ -406,7 +394,7 @@ body {
 
 .solution-section .feature-list li {
     font-size: 16px;
-    color: #334155;
+    color: #001931;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -420,18 +408,80 @@ body {
     flex-shrink: 0;
 }
 
-/* Responsive Support  */
-@media (max-width: 992px) {
-    .solution-section .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    .solution-section .image-box {
-        width: 100%;
-        min-width: auto;
-    }
-    .solution-section .feature-list li {
-        justify-content: center;
-    }
+
+
+/* Early Access CTA Section */
+.cta-section {
+    background-color: #ffffff;
+    padding: 2px 120px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1600px;
+    height: 506px;
+    margin: 0 auto;
+}
+
+.cta-container {
+    background-color: #F7F6F2; 
+    border: 1px solid #f1ede6;
+    max-width: 1360px;
+    height: 384px;
+    border-radius: 12px;
+    padding: 80px 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cta-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+}
+
+.cta-desc {
+    font-size: 16px;
+    color:#627382 ;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; 
+    background-color: #30B868;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    padding: 12.5px 12px 12.5px 16px; 
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 4px 12px rgba(48, 184, 104, 0.2);
+    margin-bottom: 16px;
+   
+}
+
+.cta-btn:hover {
+    background-color: #279e57;
+}
+.cta-arrow-img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.cta-note {
+    font-size: 16px;
+    color:#627382 ;
+    margin: 0;
 }
 
