@@ -511,7 +511,7 @@ body {
 
 /* Brand Logo Style */
 .footer-logo .brand-logo {
-    height: 45px;
+    height: 60px;
     object-fit: contain;
 }
 
@@ -570,8 +570,8 @@ body {
 }
 
 .footer-bottom p {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    color: #8a99ad;
-    margin: 0;
+    
+    font-size: 16px;
+    color: #FAFAFA;
+    margin-bottom: 30px;
 }
